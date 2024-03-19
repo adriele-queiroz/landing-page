@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2a2828;">
+    <div class="container">
+      <a class="navbar-brand" href="#">Fitness App</a>
+      <!-- Botão de navegação responsiva -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Recursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Depoimentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#signup">Inscreva-se</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seção de Assinatura -->
+  <section id="plano-fitness">
+    <div class="container">
+      <h2 style="text-align: right;">Comece agora por apenas <br> <span style="font-size: 2em;">R$ 49,99</span> por mês
+        <br>e desfrute do melhor que a <br>
+        vida fitness pode oferecer!</h2>
+    </div>
+  </section>
+
+  <!-- Seção Hero -->
+  <section class="jumbotron text-center mb-0">
+    <div class="container">
+      <h1 class="display-4">Seja mais saudável e ativo!</h1>
+      <p class="lead">Nosso aplicativo de fitness torna fácil se exercitar em casa. Comece sua jornada de
+        condicionamento físico hoje!</p>
+      <a href="https://play.google.com/store/apps?hl=pt_BR&gl=US" target="_blank" class="btn btn-secondary btn-lg">Baixe
+        Agora</a>
+    </div>
+  </section>
+
+  <!-- Recursos -->
+  <section id="features" class="py-5" style="background-color: #101010;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="feature-item feature-image" style="background-image: url('/assets/images/imagem1.jpg.png');">
+            <h2>Planos de Treino Personalizados</h2>
+            <p>Nossos treinadores criarão um plano de exercícios personalizado para você, com base em seus objetivos.
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="feature-item feature-image" style="background-image: url('/assets/images/imagem2.png');">
+            <h2>Acompanhamento de Progresso</h2>
+            <p>Acompanhe seu progresso ao longo do tempo com estatísticas detalhadas e gráficos de desempenho.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="feature-item feature-image" style="background-image: url('/assets/images/imagem3.png');">
+            <h2>Suporte Exclusivo e Personalizado</h2>
+            <p>Nossa equipe de suporte está disponível 24 horas por dia,, para responder a qualquer pergunta que você
+              possa ter.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section id="testimonials" class="jumbotron py-5 mb-0">
+    <div class="container">
+      <h2 class="text-center">O que nossos usuários estão dizendo</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div id="carouselTestimonials" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselTestimonials" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselTestimonials" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card mb-4">
+                  <div class="card-body">
+                    <p class="card-text">"Este aplicativo mudou minha vida! Estou mais saudável e mais em forma do que
+                      nunca."</p>
+                    <p class="text-muted">- João Silva</p>
+                    <img src="/assets/images/user1.png" alt="Depoimento 1" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card mb-4">
+                  <div class="card-body">
+                    <p class="card-text">"Estou muito satisfeita com os resultados que obtive usando este aplicativo.
+                      Perfeito!!"</p>
+                    <p class="text-muted">- Maria Santos</p>
+                    <img src="/assets/images/user2.png" alt="Depoimento 2" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card mb-4">
+                  <div class="card-body">
+                    <p class="card-text">"Estou encantado com os resultados que alcancei usando este aplicativo.
+                      Recomendo a todos!"</p>
+                    <p class="text-muted">- Luiz Santos</p>
+                    <img src="/assets/images/user1.png" alt="Depoimento 3" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselTestimonials" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselTestimonials" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulário de Inscrição -->
+  <section id="signup" class="py-5" style="background-color: #101010;">
+    <div class="container">
+      <h2 class="text-center text-white mb-4">Inscreva-se para uma avaliação gratuita!</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Nome">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-secondary btn-block">Inscreva-se Agora</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="text-white text-center py-3" style="background-color: #2a2828;">
+    <div class="container">
+      <p>&copy; 2024 Fitness App. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
