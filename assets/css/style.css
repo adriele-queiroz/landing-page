@@ -13,7 +13,9 @@
 #plano-fitness h2 {
     position: absolute; 
     right: 0; 
-    margin-right: 100px; 
+    margin-right: 50px; 
+    top: 300px;
+   
 }  
 
 .feature-item {
