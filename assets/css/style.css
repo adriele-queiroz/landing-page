@@ -1,3 +1,7 @@
+.body{
+    font-family:'Sarala', sans-serif;
+}
+
 #plano-fitness {
     padding: 100px 0; 
     background-image: url('/assets/images/capa.png'); 
