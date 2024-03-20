@@ -17,7 +17,11 @@
 #plano-fitness h2 {
     position: absolute; 
     right: 0; 
-    margin-right: 30px;      
+    margin-right: 30px;   
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    background-color: rgba(255, 255, 255, 0.261);    
+    padding: 10px;
+    border-radius: 5px;    
 }  
 
 .feature-item {
