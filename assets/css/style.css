@@ -2,6 +2,10 @@
     font-family:'Sarala', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #plano-fitness {
     padding: 100px 0; 
     background-image: url('/assets/images/capa.png'); 
